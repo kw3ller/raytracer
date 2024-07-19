@@ -1,57 +1,13 @@
+# Directories
+.vs/
+bin/
+bin-int/
 
-# Prerequisites
-*.d
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-Footer
-
-# for cmake
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-
-# for editor
-.vscode/
-.cache/
-
-# for build folders
-out/build
-build/
-[Bb][Uu][Ii][Ll][Dd]/
-
+# Exclude
+!vendor/bin
