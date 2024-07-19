@@ -12,7 +12,7 @@ Thus far it only supports multithreading on the CPU and utilizes no GPU shaders.
 
 Supports Windows and Visual Studio 2022. The [Vulkan SDK](https://vulkan.lunarg.com/sdk/home) has to be installed.
 
-1. Clone recursively
+1. Clone recursively: git clone https://github.com/kw3ller/raytracer.git --recursive
 2. Run scripts/Setup.bat
 3. Open RayTracing.sln and run in Release mode (Debug is very slow)
 
